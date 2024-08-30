@@ -1,0 +1,40 @@
+img {
+  width: 100%;
+  height: 400px;
+}
+
+.text {
+  text-align: center;
+  width: 80%;
+  bottom: 10px;
+  left: 10%;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.lightbox-container {
+  background-color: rgba(0, 0, 0, .5);
+
+}
+
+.lightbox-item {
+  width: 50%;
+  height: 80vh;
+  background-image: url(../img/project-1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#btnClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+i {
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
